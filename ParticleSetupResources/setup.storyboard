@@ -2121,7 +2121,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <state key="normal" title="ParticleSetupStrings.Action.Cancel">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="cancelButtonTouched:" destination="DQd-hP-ryy" eventType="touchUpInside" id="7FV-d8-8if"/>
@@ -2135,7 +2135,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.95564913749694824" green="0.95562052726745605" blue="0.95563679933547974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Dom-kg-WP6" firstAttribute="top" secondItem="ldG-Y4-BA3" secondAttribute="bottom" id="12i-hG-M1u"/>
                             <constraint firstItem="V2q-AF-j1J" firstAttribute="leading" secondItem="ldG-Y4-BA3" secondAttribute="leading" id="22O-6s-xZw"/>
