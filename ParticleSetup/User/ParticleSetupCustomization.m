@@ -46,7 +46,7 @@
         //self.deviceName = ParticleSetupStrings_Default_DeviceName;
         self.brandName = @"Particle";
         //self.brandImage = [ParticleSetupMainController loadImageFromResourceBundle:@"spark-logo-head"];
-        self.brandImageBackgroundColor = [UIColor colorWithRed:229 green:229 blue:237];
+        self.brandImageBackgroundColor = [UIColor colorWithWhite:0.94 alpha:1.0f];
         self.brandImageBackgroundImage = nil;
 
         //self.modeButtonName = ParticleSetupStrings_Default_ModeButton;
@@ -55,7 +55,7 @@
         self.fontSizeOffset = 0;
 
         self.normalTextColor = [UIColor colorWithRed:28 green:26 blue:25];
-        self.pageBackgroundColor = [UIColor colorWithRed:229 green:229 blue:237];
+        self.pageBackgroundColor = [UIColor colorWithWhite:0.94 alpha:1.0f];
         self.linkTextColor = [UIColor blueColor];
         self.elementBackgroundColor = [UIColor colorWithRed:0 green:165 blue:231];
         self.elementTextColor = [UIColor whiteColor];
