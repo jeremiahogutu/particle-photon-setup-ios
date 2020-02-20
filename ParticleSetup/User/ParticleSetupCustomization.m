@@ -82,13 +82,6 @@
     return nil;
 }
 
--(UIImage *)brandImage {
-    if (_brandImage == nil) {
-        _brandImage = [ParticleSetupMainController loadImageFromResourceBundle:@"spark-logo-head"];
-    }
-    return _brandImage;
-}
-
 - (NSString *)deviceName {
     if (_deviceName == nil){
         _deviceName = ParticleSetupStrings_Default_DeviceName;
