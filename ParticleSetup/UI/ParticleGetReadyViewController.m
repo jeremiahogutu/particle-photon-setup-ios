@@ -81,7 +81,7 @@
 
     self.loggedInLabel.alpha = 0.85;
     self.logoutButton.titleLabel.font = [UIFont fontWithName:[ParticleSetupCustomization sharedInstance].headerTextFontName size:self.logoutButton.titleLabel.font.pointSize];
-    self.cancelSetupButton.titleLabel.font = [UIFont fontWithName:[ParticleSetupCustomization sharedInstance].boldTextFontName size:self.self.cancelSetupButton.titleLabel.font.pointSize];
+    self.cancelSetupButton.titleLabel.font = [UIFont fontWithName:[ParticleSetupCustomization sharedInstance].normalTextFontName size:self.self.cancelSetupButton.titleLabel.font.pointSize];
 
     if ([ParticleCloud sharedInstance].isAuthenticated) {
         self.loggedInLabel.text = [ParticleCloud sharedInstance].loggedInUsername;

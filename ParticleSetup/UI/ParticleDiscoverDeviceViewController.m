@@ -121,7 +121,7 @@
     self.wifiView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.wifiView.layer.borderWidth = 1.0f;
 
-    self.cancelSetupButton.titleLabel.font = [UIFont fontWithName:[ParticleSetupCustomization sharedInstance].boldTextFontName size:self.self.cancelSetupButton.titleLabel.font.pointSize];
+    self.cancelSetupButton.titleLabel.font = [UIFont fontWithName:[ParticleSetupCustomization sharedInstance].normalTextFontName size:self.self.cancelSetupButton.titleLabel.font.pointSize];
     UIColor *navBarButtonsColor = ([ParticleSetupCustomization sharedInstance].lightStatusAndNavBar) ? [UIColor whiteColor] : [UIColor blackColor];
     [self.cancelSetupButton setTitleColor:navBarButtonsColor forState:UIControlStateNormal];
 
