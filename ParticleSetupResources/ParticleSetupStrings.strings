@@ -65,7 +65,7 @@
 "ParticleSetupStrings.GetLocationPermission.Button.OpenSettings" = "OPEN SETTINGS";
 
 "ParticleSetupStrings.GetLocationPermission.DeniedText" = "Grobo setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\nYou have previously denied Grobo app permission to access location services. Please grant the permission in Settings app.\n\nGrobo app will only use this permission to read Wi-Fi SSID and not to track your location.";
-"ParticleSetupStrings.GetLocationPermission.Text" = "Grobo setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\n{device} app will only use this permission to read Wi-Fi SSID and not to track your location.";
+"ParticleSetupStrings.GetLocationPermission.Text" = "Grobo setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\nGrobo app will only use this permission to read Wi-Fi SSID and not to track your location.";
 "ParticleSetupStrings.GetLocationPermission.Title" = "Permission to read WIFI SSID";
 
 "ParticleSetupStrings.GetReady.Button.LogIn" = "Log in";
