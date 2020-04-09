@@ -64,8 +64,8 @@
 "ParticleSetupStrings.GetLocationPermission.Button.GrantPermission" = "GRANT PERMISSION";
 "ParticleSetupStrings.GetLocationPermission.Button.OpenSettings" = "OPEN SETTINGS";
 
-"ParticleSetupStrings.GetLocationPermission.DeniedText" = "Photon setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\nYou have previously denied Particle application permission to access location services. Please grant the permission in Settings app.\n\nParticle app will only use this permission to read Wi-Fi SSID and not to track your location.";
-"ParticleSetupStrings.GetLocationPermission.Text" = "Photon setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\nParticle app will only use this permission to read Wi-Fi SSID and not to track your location.";
+"ParticleSetupStrings.GetLocationPermission.DeniedText" = "Grobo setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\nYou have previously denied Grobo app permission to access location services. Please grant the permission in Settings app.\n\nGrobo app will only use this permission to read Wi-Fi SSID and not to track your location.";
+"ParticleSetupStrings.GetLocationPermission.Text" = "Grobo setup reads current Wi-Fi SSID to determine when your phone connects to a device.\n\nStarting iOS 13, for apps to have access to Wi-Fi SSID information, user must grant location services permission.\n\nGrobo app will only use this permission to read Wi-Fi SSID and not to track your location.";
 "ParticleSetupStrings.GetLocationPermission.Title" = "Permission to read WIFI SSID";
 
 "ParticleSetupStrings.GetReady.Button.LogIn" = "Log in";
@@ -89,7 +89,7 @@
 
 
 "ParticleSetupStrings.GetReady.Text1" = "Plug in your {device} to power it on";
-"ParticleSetupStrings.GetReady.Text2" = "The on-board LED should be blinking blue. If not, hold the {mode button} for 3 seconds";
+"ParticleSetupStrings.GetReady.Text2" = "Check the User LED to make sure that it is green. If it is not green, hold the setup button located near the top right back of your {device} until the User LED turns green";
 "ParticleSetupStrings.GetReady.Text3" = "Make sure your iOS device is connected to the Internet";
 "ParticleSetupStrings.GetReady.iPhone4MoreInstructions" = "Scroll down for more instructions:\n{{instructions}}";
 
@@ -174,7 +174,7 @@
 "ParticleSetupStrings.SetupResult.Result.DeviceOffline.Message" = "Your device has been successfully claimed to your account, however it is offline. If the device was already claimed before this setup, then the Wi-Fi connection may have failed, and you should try setup again.";
 "ParticleSetupStrings.SetupResult.Result.DeviceOffline.Title" = "Setup completed";
 
-"ParticleSetupStrings.SetupResult.Result.NotClaimed.Message" = "Setup was successful, but since you do not own this device we cannot know if the {device} has connected to the Internet. If you see the LED breathing cyan this means it worked! If not, please restart the setup process.";
+"ParticleSetupStrings.SetupResult.Result.NotClaimed.Message" = "Setup was successful. If you see the LED breathing cyan this means it worked! If not, please restart the setup process.";
 "ParticleSetupStrings.SetupResult.Result.NotClaimed.Title" = "Setup completed";
 
 "ParticleSetupStrings.SetupResult.Result.Success.Text" = "Congrats! You've successfully set up your {device}.";
